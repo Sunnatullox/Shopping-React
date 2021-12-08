@@ -1,0 +1,54 @@
+.section
+{
+    background-color: cyan;
+}
+.form-inputs {
+    position: relative;    
+}
+
+.form-inputs .form-control {
+    height: 45px
+}
+
+.form-inputs .form-control:focus {
+    box-shadow: none;
+    border: 1px solid #000
+}
+
+.form-inputs i {
+    position: absolute;
+    right: 10px;
+    top: 15px
+}
+
+.shop-bag {
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.qty {
+    font-size: 12px
+}
+
+.savatcha
+{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    cursor: pointer;
+    z-index: 5;
+}
+
+@media (min-width:768px) {
+    .savatcha
+    {
+        top:6rem;
+        bottom:inherit;
+    }
+}
